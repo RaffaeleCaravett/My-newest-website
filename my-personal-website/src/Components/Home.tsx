@@ -7,6 +7,53 @@ function Home() {
 setTimeout(()=>{
     setMyAge(today-1994)
 },2000)
+
+const stack = 
+    [
+        {
+        image:'../assets/Angular_logo.svg.png',
+        nome:'Angular',
+        descrizione:'E\' un framework di sviluppo front-end che consente di creare applicazioni web dinamiche.'
+        },
+        {
+            image:'../assets/react.svg',
+            nome:'React',
+            descrizione:'E\' una libreria JavaScript per costruire interfacce utente caratterizzata dal fatto che è dichiarativa, efficiente e flessibile.'
+            },
+            {
+                image:'../assets/Java_Logo.svg',
+                nome:'Java',
+                descrizione:'E\' un linguaggio di programmazione e una piattaforma di elaborazione sviluppato da Sun Microsystems nel 1995.'
+                },
+                {
+                    image:'../assets/spring-icon.svg',
+                    nome:'Spring',
+                    descrizione:'E\'  un framework Java per la costruzione di applicazioni aziendali.'
+                    },
+                    {
+                        image:'../assets/Git_icon.svg.png',
+                        nome:'Git',
+                        descrizione:'E\' il sistema di controllo delle versioni moderno di gran lunga più utilizzato attualmente a livello globale.'
+                        },
+                        {
+                            image:'../assets/mysql_logo.svg',
+                            nome:'MySql',
+                            descrizione:'E\' un sistema di gestione di database relazionali (RDBMS) gratuito e open source che utilizza SQL (Structured Query Language).'
+                            }
+                            ,
+                        {
+                            image:'../assets/oracle.svg',
+                            nome:'Oracle Database',
+                            descrizione:'E\' un sistema di gestione dei database relazionali (RDBMS) del produttore software e hardware Oracle.'
+                            },
+                        {
+                            image:'../assets/jira-1.svg',
+                            nome:'Jira',
+                            descrizione:'E\' l\'hub centrale per le fasi di codifica, collaborazione e rilascio.'
+                            }
+    ]
+
+
     return(
         <div className="container">
             <div className="row">
@@ -22,6 +69,9 @@ setTimeout(()=>{
     </p>
 <h2 className="py-5">Il mio stack tecnlogico:</h2>
 </div>
+{stack&& stack.map(s=>
+    <div>{s.nome}</div>
+)}
 <div className="col-md-6 p-5" >
 <img src={fotoProfilo} className="w-75 rounded border shadow" alt=""  data-aos="fade-right" data-aos-duration="3000"/>
 </div>
