@@ -4,8 +4,8 @@ import Angular from '../assets/Angular_logo.svg.png'
 import React from '../assets/react.svg'
 import Java from '../assets/Java_Logo.svg'
 import Spring from '../assets/spring-icon.svg'
-import Mysql from '../assets/Git_icon.svg.png'
-import Git from '../assets/mysql-logo.svg'
+import Mysql from '../assets/mysql-logo.svg'
+import Git from '../assets/Git_icon.svg.png'
 import Oracle from '../assets/oracle.svg'
 import Jira from '../assets/jira-1.svg'
 import Team from '../assets/team.svg'
@@ -157,7 +157,7 @@ const links = [
         <h1>Referenze lavorative</h1>
        
        {links&&links.map((l,key)=>
-        <div className="col-md-6 p-5 position-relative contacts" key={key}>
+        <div className="col-md-6 p-5 position-relative contacts" data-aos="zoom-in" data-aos-duration="3000" key={key}>
             <div className="header px-5">
    <h2>{l.nome}</h2>
    <p>{l.descrizione}</p> 
