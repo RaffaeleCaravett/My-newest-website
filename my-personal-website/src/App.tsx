@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 import Home from './Components/Home'
 import Aos from 'aos'
 import Contatti from './Components/Contatti'
+import 'aos/dist/aos.css';
 
 function App() {
  
