@@ -32,3 +32,60 @@ a{
 ul{
     list-style-type: none;
 }
+.stack-image{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.stack-container{
+    overflow: hidden;
+img{
+    transition: 1s;
+}
+    .to-absolute{
+        position: absolute;
+        top: -500px;
+        transition: 1s;
+    }
+    &:hover{
+        img{
+            scale: .8;
+            transition:1s
+        }
+        .to-absolute{
+            position: absolute;
+            top: -170px;
+            transition: 1s;
+            background:rgba(219, 223, 219, 0.3);
+        }
+    }
+}
+.soft{
+    overflow: hidden;
+    .a{
+        color:white
+    }
+    .content{
+transition: 1s;
+    }
+    .image{
+        position: absolute;
+        left:-1000px;
+        transition:1s
+    }
+    &:hover{
+        .a{
+            color:white
+        }
+        .content{
+            scale: .5;
+            transition: 2s;
+                }
+                .image{
+                    position: absolute;
+                    left:0;
+                    top: 0;
+                    transition:1s
+                }
+    }
+}
