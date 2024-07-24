@@ -110,7 +110,7 @@ const links = [
     <p className="fs-5">Mi presento ...</p>
     <p className="fs-5"  data-aos="zoom-out" data-aos-duration="3000">Mi Chiamo Raffaele Caravetta ed ho {myAge} anni.
         Ho conseguito il diploma nel 2013 in ambito umanistico e col passare degli anni ho maturato un interesse prima e una passione poi per l'informatica, e il mondo IT in generale.
-        Ho Ho conseguito certificazioni importanti come quella di Epicode, con la quale sono riconosciuto come Fullstack Developer.      
+        Ho conseguito certificazioni importanti come quella di Epicode, con la quale sono riconosciuto come Fullstack Developer.      
     </p>
 <h2 className="py-5">Il mio stack tecnlogico:</h2>
 </div>
