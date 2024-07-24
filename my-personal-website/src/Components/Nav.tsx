@@ -15,7 +15,7 @@ function Nav() {
         }
     }
     return (
-        <div className="p-5 bg-success text-white w-100">
+        <div className="p-5 bg-info text-white w-100">
 <div className="row">
     <div className="col-md-6 text-start p-1">
         <h2>Raffaele Caravetta</h2>

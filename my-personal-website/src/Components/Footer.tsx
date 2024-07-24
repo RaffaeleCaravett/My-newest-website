@@ -20,7 +20,9 @@ const footerImages =[
     </div>
     <div className="col-md-6 py-3">
 <p className="fs-4">Fullstack Web developer</p>
-<p>Esperienza in aziende di consulenza, pubblica amministrazione, privati. Confortevole a lavorare su tecnologie datate, creare applicazioni web complesse, ristrutturare codici esistenti</p>
+<p>Esperienza in aziende di consulenza, pubblica amministrazione, privati. Confortevole a lavorare su tecnologie datate, creare applicazioni web complesse, ristrutturare codici esistenti.
+    Disponibilità a lavorare in full-remote.
+</p>
     </div>
     <div className="col-md-6 py-3">
 <div className="row">
