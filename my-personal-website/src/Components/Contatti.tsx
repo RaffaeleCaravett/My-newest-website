@@ -94,7 +94,7 @@ return (
                 {commentoError!=''&&<p className="text-danger">{commentoError}</p>}
             </div>
             </div>
-<button className="shadow-none btn py-5" type="submit">Invia</button>
+<button className="shadow-none btn py-5 bnt-light" type="submit">Invia</button>
         </form>
     </div>
 </div>
