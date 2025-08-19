@@ -1,7 +1,7 @@
 import Tech from '../assets/tech.png'
 import Web from '../assets/web-development.svg'
-import Elect from '../assets/robot.svg'
-import Robot from '../assets/gaming.svg'
+import Robot from '../assets/robot.svg'
+import Elect from '../assets/gaming.svg'
 function Footer() {
 
     const footerImages = [
@@ -22,7 +22,7 @@ function Footer() {
         },
         {
             img: Robot,
-            title: 'Passione per la robotica',
+            title: '',
             alt: 'Robot_image'
         },
 
