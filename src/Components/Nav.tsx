@@ -27,8 +27,8 @@ function Nav() {
           </button>
           {drop && <div className="drop-container">
             <div className="text-center drop">
-              <button className="btn shadow-none text-white py-0"> <Link to={'/home'} onClick={(e) => setDrop(false)}>Home </Link></button><br />
-              <button className="btn shadow-none text-white py-0"><Link to={'/contatti'} onClick={(e) => setDrop(false)}> Contatti </Link></button>
+              <button className="btn shadow-none text-white py-0"> <Link to={'/home'} onClick={() => setDrop(false)}>Home </Link></button><br />
+              <button className="btn shadow-none text-white py-0"><Link to={'/contatti'} onClick={() => setDrop(false)}> Contatti </Link></button>
             </div>
           </div>}
         </div>
